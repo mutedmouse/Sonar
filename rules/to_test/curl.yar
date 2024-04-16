@@ -1,4 +1,4 @@
-rule docker
+rule curl
 {
     strings:
 	  $pattern = "curl" nocase
