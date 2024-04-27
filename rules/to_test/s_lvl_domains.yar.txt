@@ -1,9 +1,0 @@
-rule targeting_history_slvl_domain
-{
-    strings:
-		$pattern1 = /(^|\n).+\.smil[^a-zA-Z0-9\n]{1}[^\n]+/ nocase
-        $pattern2 = /(^|\n).+\.sgov[^a-zA-Z0-9\n]{1}[^\n]+/ nocase
-
-    condition:
-        any of them
-}

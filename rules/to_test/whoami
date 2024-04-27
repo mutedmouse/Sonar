@@ -1,8 +1,0 @@
-rule whoami
-{
-    strings:
-	    $pattern = "whoami" nocase
-
-    condition:
-     	$pattern
-}
